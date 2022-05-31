@@ -1,0 +1,13 @@
+TYPE : 	#include<stdio.h>
+
+TYPE : 	main
+LEFT_BRAC: 	(
+RIGHT_BRAC: 	)
+LEFT_CURLY: 	{
+TYPE : 	int
+
+ID : 		fact
+ASSIGN: 	=
+NUM : 		1
+
+FOR_LOOP : 	for
