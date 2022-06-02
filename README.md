@@ -4,19 +4,19 @@ A compiler which does lexical analysis and syntax analysis of given sample.cu co
 For this I created cucu.l and cucu.y (lex and yacc) files according to the general few C grammar rules.
 
 # Commands
-bison -d cucu.y
-lex cucu.l
-g++ cucu.tab.c lex.yy.c -lfl -o cucu
-./cucu sample.cu
+bison -d cucu.y <br />
+lex cucu.l <br />
+g++ cucu.tab.c lex.yy.c -lfl -o cucu <br />
+./cucu sample.cu <br />
 
 # Input Files
-sample.cu
-cucu.l 
-cucu.y
+sample.cu <br />
+cucu.l <br />
+cucu.y <br />
 
 # Output Files
-cucu.tab.h
-cucu.tab.c
-cucu
-Lexer.txt
-Parser.txt
+cucu.tab.h <br />
+cucu.tab.c <br />
+cucu <br />
+Lexer.txt <br />
+Parser.txt <br />
